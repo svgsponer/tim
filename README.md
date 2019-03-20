@@ -6,15 +6,16 @@ Can be used as decorator or as context.
 ## Usage
 
 Usage as decorator:
-`@Tim("My Timer", "timeout")
+```
+@Tim("My Timer", "timeout")
 def foo():
 do_stuff
-`
+```
 
 Usage as context:
-`
+```
 def foo():
 with Tim("My Timer", "timeout"):
    do_stuff
-`
+```
 
